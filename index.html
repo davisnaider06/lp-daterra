@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daterra - Produtos Naturais e Suplementos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%281%29-BDGmUaXF3cv8cshvzyUo0RIqoJ63us.png" alt="Daterra Logo" class="logo-img">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Início</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Produtos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <div class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data" data-aos="fade-right">
+                    <h1 class="home__title">
+                        Produtos <span class="text-gradient">Naturais</span><br>
+                        Para Sua <span class="text-gradient">Saúde</span>
+                    </h1>
+                    <p class="home__description">
+                        Descubra nossa seleção premium de suplementos e produtos naturais, 
+                        cuidadosamente escolhidos para promover seu bem-estar e vitalidade.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#products" class="button button--primary">
+                            Ver Produtos
+                        </a>
+                        <a href="#about" class="button button--ghost">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="home__img" data-aos="fade-left">
+                    <div class="home__blob">
+                        <img src="public/image.png?height=400&width=400" alt="Produtos Naturais" class="home__blob-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data" data-aos="fade-up">
+                    <h2 class="section__title">Sobre a Daterra</h2>
+                    <p class="about__description">
+                        Há mais de 10 anos, a Daterra se dedica a oferecer produtos naturais 
+                        de alta qualidade, promovendo saúde e bem-estar através da natureza. 
+                        Nossa missão é conectar você aos melhores recursos que a terra oferece.
+                    </p>
+                    <div class="about__info">
+                        <div class="about__info-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <h3>100% Natural</h3>
+                                <p>Produtos livres de químicos</p>
+                            </div>
+                        </div>
+                        <div class="about__info-item" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h3>Certificado</h3>
+                                <p>Qualidade garantida</p>
+                            </div>
+                        </div>
+                        <div class="about__info-item" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h3>Entrega Rápida</h3>
+                                <p>Em todo o Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="products section" id="products">
+            <div class="products__container container">
+                <h2 class="section__title" data-aos="fade-up">Nossos Produtos</h2>
+                <p class="section__subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Descubra nossa linha completa de produtos naturais
+                </p>
+
+                <div class="products__carousel" data-aos="fade-up" data-aos-delay="200">
+                    <div class="products__wrapper" id="products-wrapper">
+                        <!-- Product Cards -->
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Vitamina C">
+                            </div>
+                            <h3 class="product__title">Vitamina C Natural</h3>
+                            <p class="product__price">R$ 45,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Ômega 3">
+                            </div>
+                            <h3 class="product__title">Ômega 3 Premium</h3>
+                            <p class="product__price">R$ 89,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Colágeno">
+                            </div>
+                            <h3 class="product__title">Colágeno Hidrolisado</h3>
+                            <p class="product__price">R$ 67,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Magnésio">
+                            </div>
+                            <h3 class="product__title">Magnésio Dimalato</h3>
+                            <p class="product__price">R$ 52,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Probióticos">
+                            </div>
+                            <h3 class="product__title">Probióticos Multi</h3>
+                            <p class="product__price">R$ 78,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Cúrcuma">
+                            </div>
+                            <h3 class="product__title">Cúrcuma + Piperina</h3>
+                            <p class="product__price">R$ 39,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Spirulina">
+                            </div>
+                            <h3 class="product__title">Spirulina Orgânica</h3>
+                            <p class="product__price">R$ 56,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Ashwagandha">
+                            </div>
+                            <h3 class="product__title">Ashwagandha</h3>
+                            <p class="product__price">R$ 64,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Zinco">
+                            </div>
+                            <h3 class="product__title">Zinco Quelato</h3>
+                            <p class="product__price">R$ 34,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Melatonina">
+                            </div>
+                            <h3 class="product__title">Melatonina Natural</h3>
+                            <p class="product__price">R$ 42,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Coenzima Q10">
+                            </div>
+                            <h3 class="product__title">Coenzima Q10</h3>
+                            <p class="product__price">R$ 95,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Rhodiola">
+                            </div>
+                            <h3 class="product__title">Rhodiola Rosea</h3>
+                            <p class="product__price">R$ 71,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Ginkgo">
+                            </div>
+                            <h3 class="product__title">Ginkgo Biloba</h3>
+                            <p class="product__price">R$ 48,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Maca Peruana">
+                            </div>
+                            <h3 class="product__title">Maca Peruana</h3>
+                            <p class="product__price">R$ 58,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+
+                        <div class="product__card">
+                            <div class="product__img">
+                                <img src="/placeholder.svg?height=200&width=200" alt="Chá Verde">
+                            </div>
+                            <h3 class="product__title">Extrato Chá Verde</h3>
+                            <p class="product__price">R$ 36,90</p>
+                            <button class="button button--small">Comprar</button>
+                        </div>
+                    </div>
+
+                    <div class="products__controls">
+                        <button class="products__arrow products__arrow--left" id="prev-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="products__arrow products__arrow--right" id="next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__data" data-aos="fade-right">
+                    <h2 class="section__title">Entre em Contato</h2>
+                    <p class="contact__description">
+                        Tem dúvidas sobre nossos produtos? Nossa equipe está pronta para ajudar!
+                    </p>
+                    <div class="contact__info">
+                        <div class="contact__info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Telefone</h3>
+                                <p>(11) 9999-9999</p>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contato@daterra.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact__info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Endereço</h3>
+                                <p>São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form" data-aos="fade-left">
+                    <div class="contact__form-group">
+                        <input type="text" placeholder="Seu nome" class="contact__input">
+                    </div>
+                    <div class="contact__form-group">
+                        <input type="email" placeholder="Seu email" class="contact__input">
+                    </div>
+                    <div class="contact__form-group">
+                        <textarea placeholder="Sua mensagem" class="contact__input contact__textarea"></textarea>
+                    </div>
+                    <button type="submit" class="button button--primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <div class="footer__data">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-removebg-preview%20%281%29-BDGmUaXF3cv8cshvzyUo0RIqoJ63us.png" alt="Daterra Logo" class="footer__logo">
+                    <p class="footer__description">
+                        Produtos naturais de qualidade para uma vida mais saudável.
+                    </p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Links Rápidos</h3>
+                    <ul class="footer__list">
+                        <li><a href="#home" class="footer__link">Início</a></li>
+                        <li><a href="#about" class="footer__link">Sobre</a></li>
+                        <li><a href="#products" class="footer__link">Produtos</a></li>
+                        <li><a href="#contact" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Categorias</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Vitaminas</a></li>
+                        <li><a href="#" class="footer__link">Minerais</a></li>
+                        <li><a href="#" class="footer__link">Probióticos</a></li>
+                        <li><a href="#" class="footer__link">Fitoterápicos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p>&copy; 2024 Daterra. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
